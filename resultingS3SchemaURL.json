@@ -1,0 +1,25 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "AboutMe": {
+        "@id": "https://github.com/dreampiper/crystalrohr-issuer/blob/main/proof-of-helper.jsonId#ProofOfHelp",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "poly-vocab": "https://github.com/dreampiper/crystalrohr-issuer/blob/main/proof-of-helper.json",
+          "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
+          "ProofOfHelp": {
+            "@id": "poly-vocab:ProofOfHelp",
+            "@type": "serialization:IndexDataSlotA"
+          }
+         }
+      }
+    }
+  ]
+}
